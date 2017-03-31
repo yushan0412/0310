@@ -91,5 +91,7 @@ namespace eSalex.Models
         /// 出貨國家
         /// </summary>
         public string ShipCountry { get; set; }
+
+        ///njo6
     }
 }

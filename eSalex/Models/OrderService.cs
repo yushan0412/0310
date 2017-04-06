@@ -13,7 +13,7 @@ namespace eSalex.Models
         /// <summary>
         /// 新增訂單
         /// </summary>
-        public void InserOrder()
+        public void InsertOrder(Models.Order order)
         {
 
         }

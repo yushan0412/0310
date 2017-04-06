@@ -53,8 +53,10 @@ namespace eSalex.Models
         /// <returns></returns>
         public List<Models.Order> GetOrders()
         {
+          //List<Models.Order> result = new List<Order>();
+         // result.Add(new Order() { CustId="GSS", CustName="叡揚資訊", EmpId=1, EmpName="王小明", Orderdate=DateTime.Parse("2017/04/06")
             return new List<Order>();
         }
-        // 
+        
     }
 }

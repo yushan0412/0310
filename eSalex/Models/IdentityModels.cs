@@ -29,5 +29,7 @@ namespace eSalex.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<eSalex.Models.Order> Orders { get; set; }
     }
 }
